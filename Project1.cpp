@@ -14,6 +14,7 @@ void print2();
 void print();
 void print6();
 void print5();
+void print7();
 int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     int n;
@@ -74,6 +75,10 @@ void print6()
     cout << "test6" << endl;
 }
 void print5()
+{
+    cout << "test5" << endl;
+}
+void print7()
 {
     cout << "test5" << endl;
 }
