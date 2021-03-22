@@ -12,6 +12,7 @@ void print3();
 void print2();
 
 void print();
+void print6();
 void print5();
 int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */
@@ -68,10 +69,13 @@ void print()
     cout << "test1" << endl;
 
 }
+void print6()
+{
+    cout << "test6" << endl;
+}
 void print5()
 {
     cout << "test5" << endl;
-
 }
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
