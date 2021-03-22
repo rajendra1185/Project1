@@ -8,6 +8,7 @@
 #include <algorithm>
 using namespace std;
 void print4();
+void print3();
 void print2();
 
 void print();
@@ -52,6 +53,10 @@ int main() {
 void print4()
 {
     cout << "test4" << endl;
+}
+void print3()
+{
+    cout << "test2" << endl;
 }
 void print2()
 {
