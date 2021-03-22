@@ -7,6 +7,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
+void print2();
 
 void print();
 int main() {
@@ -47,10 +48,14 @@ int main() {
     }
     return 0;
 }
-
+void print2()
+{
+    cout << "test2" << endl;
+}
 void print()
 {
     cout << "test1" << endl;
+
 }
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
