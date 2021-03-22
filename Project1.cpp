@@ -7,6 +7,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
+void print4();
 void print2();
 
 void print();
@@ -47,6 +48,10 @@ int main() {
         }
     }
     return 0;
+}
+void print4()
+{
+    cout << "test4" << endl;
 }
 void print2()
 {
